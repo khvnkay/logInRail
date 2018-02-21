@@ -1,0 +1,10 @@
+project: aboss-docker-authz
+sources:
+  app:
+    - entrypoint_app.rb:/entrypoint
+    - app:/app
+    - thor_tasks:/thor_tasks
+  nginx:
+    - nginx/nginx.conf.erb:/nginx.conf.erb
+    - entrypoint_nginx.rb:/entrypoint
+    - nginx/certs:/certs
