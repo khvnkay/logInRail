@@ -1,0 +1,2 @@
+class Solve < ApplicationRecord
+end
