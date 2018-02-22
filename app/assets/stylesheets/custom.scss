@@ -127,6 +127,14 @@ aside {
 
 /* forms */
 
+
+
+
+#session_remember_me {
+  width: auto;
+  margin-left: 0;
+}
+
 input, textarea, select, .uneditable-input {
   border: 1px solid #bbb;
   width: 100%;
@@ -137,7 +145,14 @@ input, textarea, select, .uneditable-input {
 input {
   height: auto !important;
 }
-
+.checkbox {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  span {
+    margin-left: 20px;
+    font-weight: normal;
+  }
+}
 .center {
   text-align: center;
 }
